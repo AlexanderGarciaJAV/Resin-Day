@@ -79,6 +79,16 @@ hr {
         line-height:1.2em;
     
 }
+.spam{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+}
+.spam{
+    box-shadow: 0 10px 20px 0 rgb(108, 207, 202);
+    
+}
 
 .boton {
     cursor: pointer;
@@ -135,11 +145,17 @@ hr {
         justify-content: flex-end;
         text-align: center;
         line-height: 20px;
-        
+
         
     }
     .nav-brande {
         width: 240px; 
+    }
+    .spam{
+    
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 10px;
     }
     .menu-btn{
         display: block;
@@ -197,6 +213,12 @@ hr {
         
         
     }
+    .spam{
+    
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 10px;
+    }
     .menu-btn{
         display: block;
     }
@@ -222,6 +244,12 @@ hr {
         
 
         
+    }
+    .spam{
+    
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 10px;
     }
     .menu-btn{
         display: block;
