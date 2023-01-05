@@ -322,6 +322,7 @@ hr {
         
       }
 }
+
 /*boton arriba*/
 #subir{
     position: fixed;
@@ -329,5 +330,57 @@ hr {
     right: 20px;
     font-weight: bold;
     cursor: pointer;
+}
+/*ayuda.html*/
 
+.contenedor {
+width: 90%;
+margin: 100px auto;
+
+}
+.contenedor-faq {
+    box-shadow: 0 0 15px -1px rgb(120, 204, 230);
+    padding: 30px;
+}
+.contenedor-faq .titulo {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.contenedor-faq .items-preguntas {
+    box-shadow: 0 0 15px -1px rgb(0, 255, 255);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.contenedor-faq .items-preguntas .pregunta{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f4e57;
+    padding: 20px 20px 10px 20px;
+    transition: .5s;
+}
+.contenedor-faq .items-preguntas .pregunta .mas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px -1px rgb(12, 19, 18);
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .4s;
+}
+.contenedor-faq .items-preguntas .pregunta .mas:hover{
+    box-shadow: 0 0 15px -2px rgb(178, 93, 228);
+}
+.contenedor-faq .items-preguntas .respuesta {
+    padding: 0px 0px 0px 5px;
+    overflow: hidden;
+    height: 0;
+    transition: .5s;
+}
+.contenedor-faq .items-preguntas .respuesta p {
+    font-size: 1.3rem;
 }
